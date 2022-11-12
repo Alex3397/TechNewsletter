@@ -22,7 +22,6 @@ public class EmailService {
     private Mail mail;
 
     public List<Email> findEmails() {
-        System.out.println("Retriving from database");
         return emailRepository.findAll();
     }
 
